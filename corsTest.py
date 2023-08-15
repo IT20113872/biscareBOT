@@ -65,4 +65,4 @@ def ask_ai(question):
 if __name__ == '__main__':
     # Construct index before running the app
     construct_index("context_data-main\data")
-    app.run()
+    app.run(debug=False,host='0.0.0.0')
